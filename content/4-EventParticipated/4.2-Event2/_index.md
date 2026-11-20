@@ -1,126 +1,111 @@
+
 ---
-title: "Event 2"
-date: 2024-01-01
-weight: 1
+title: "Meeting 2"
+date: 2026-08-22
+weight: 2
 chapter: false
-pre: " <b> 4.2. </b> "
+pre: " <b> 3.2. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
-{{% /notice %}}
+# Report on the Mini Meetup – First Cloud AI Journey
 
-# Summary Report: “GenAI-powered App-DB Modernization workshop”
+## 1. Event Objectives
 
-### Event Objectives
+The Mini Meetup – First Cloud AI Journey, held on August 22, 2026, was a knowledge-sharing event organized by the FCAJ community. The event focused on API standards in Backend development, helping participants better understand the role of APIs in building and developing modern software systems.
 
-- Share best practices in modern application design
-- Introduce Domain-Driven Design (DDD) and event-driven architecture
-- Provide guidance on selecting the right compute services
-- Present AI tools to support the development lifecycle
+The main objectives of the event were:
 
-### Speakers
+- To understand the role of APIs in connecting and exchanging data between system components.
+- To explore important standards and principles for designing Backend APIs.
+- To understand the importance of building APIs that are easy to use, maintain, and scale.
+- To encourage continuous learning, knowledge sharing, and professional development within the technology community.
 
-- **Jignesh Shah** – Director, Open Source Databases
-- **Erica Liu** – Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** – Assc. Specialist SA, Serverless Amazon Web Services
+## 2. Speaker and Topic
 
-### Key Highlights
+- **Nguyen Nhan – FCAJ Member:** API Standards in Backend Development.
 
-#### Identifying the drawbacks of legacy application architecture
+## 3. Key Topics
 
-- Long product release cycles → Lost revenue/missed opportunities  
-- Inefficient operations → Reduced productivity, higher costs  
-- Non-compliance with security regulations → Security breaches, loss of reputation  
+### 3.1. Overview of APIs in Backend Development
 
-#### Transitioning to modern application architecture – Microservices
+An API (Application Programming Interface) allows applications or software components to communicate and exchange data with one another. In modern systems, APIs play an important role in connecting Frontend applications with Backend services, integrating services, and facilitating data exchange between different systems.
 
-Migrating to a modular system — each function is an **independent service** communicating via **events**, built on three core pillars:
+Key concepts include:
 
-- **Queue Management**: Handle asynchronous tasks  
-- **Caching Strategy**: Optimize performance  
-- **Message Handling**: Flexible inter-service communication  
+- Understanding the concept of APIs and their role in software architecture.
+- Recognizing how APIs enable communication between applications and services.
+- Understanding the importance of designing APIs that are clear, consistent, and easy to use.
+- Recognizing the role of APIs in integrating components within larger systems.
 
-#### Domain-Driven Design (DDD)
+### 3.2. API Design Standards and Principles
 
-- **Four-step method**: Identify domain events → arrange timeline → identify actors → define bounded contexts  
-- **Bookstore case study**: Demonstrates real-world DDD application  
-- **Context mapping**: 7 patterns for integrating bounded contexts  
+The session focused on important standards and principles for developing Backend APIs, with an emphasis on usability, maintainability, and scalability as systems grow.
 
-#### Event-Driven Architecture
+Key aspects include:
 
-- **3 integration patterns**: Publish/Subscribe, Point-to-point, Streaming  
-- **Benefits**: Loose coupling, scalability, resilience  
-- **Sync vs async comparison**: Understanding the trade-offs  
+- **Consistency:** Using consistent endpoint naming conventions, data structures, and response formats.
+- **Usability:** Designing clear endpoints that other applications and services can easily integrate with.
+- **Maintainability:** Organizing APIs logically to simplify updates, bug fixes, and the development of new features.
+- **Scalability:** Designing APIs with a structure that can accommodate future system growth.
+- **Compatibility:** Minimizing breaking changes that could affect applications already using the APIs.
 
-#### Compute Evolution
+These principles demonstrate that API development involves more than simply processing requests. It also requires attention to design quality and long-term maintainability.
 
-- **Shared Responsibility Model**: EC2 → ECS → Fargate → Lambda  
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value  
-- **Functions vs Containers**: Criteria for appropriate choice  
+### 3.3. The Role of APIs in Modern Systems
 
-#### Amazon Q Developer
+As software systems become more complex, APIs become essential components that enable services to communicate and work together. Well-designed APIs can reduce dependencies between components, support integration, and facilitate future system development.
 
-- **SDLC automation**: From planning to maintenance  
-- **Code transformation**: Java upgrade, .NET modernization  
-- **AWS Transform agents**: VMware, Mainframe, .NET migration  
+Important considerations when designing APIs include:
 
-### Key Takeaways
+- Clearly defining the purpose of each endpoint and the data it needs to exchange.
+- Standardizing request handling, responses, and error messages.
+- Prioritizing authentication, authorization, and data protection when exposing APIs.
+- Considering API versioning when modifying or introducing new features.
+- Providing clear API documentation to support development and integration.
 
-#### Design Mindset
+These principles can be applied when designing and developing software systems in real-world environments.
 
-- **Business-first approach**: Always start from the business domain, not the technology  
-- **Ubiquitous language**: Importance of a shared vocabulary between business and tech teams  
-- **Bounded contexts**: Identifying and managing complexity in large systems  
+## 4. Knowledge and Skills Gained
 
-#### Technical Architecture
+### 4.1. Technical Knowledge
 
-- **Event storming technique**: Practical method for modeling business processes  
-- Use **event-driven communication** instead of synchronous calls  
-- **Integration patterns**: When to use sync, async, pub/sub, streaming  
-- **Compute spectrum**: Criteria for choosing between VM, containers, and serverless  
+- **APIs and Backend Development:** Gained a better understanding of the role of APIs in connecting software system components.
+- **API Design:** Recognized the importance of consistency, usability, and maintainability.
+- **System Integration:** Learned more about how APIs facilitate communication and data exchange between applications and services.
+- **API Security:** Recognized the need for authentication, authorization, and data protection when developing service interfaces.
+- **Scalability:** Understood that API design should accommodate future system growth and changing requirements.
 
-#### Modernization Strategy
+### 4.2. Personal Development Skills
 
-- **Phased approach**: No rushing — follow a clear roadmap  
-- **7Rs framework**: Multiple modernization paths depending on the application  
-- **ROI measurement**: Cost reduction + business agility  
+- Improved my ability to explore and learn new technical concepts.
+- Understood the value of sharing technical knowledge and practical experience within a technology community.
+- Gained further motivation to explore API design, documentation, and testing.
+- Recognized the importance of continuous learning in keeping up with the development of modern systems.
 
-### Applying to Work
+## 5. Application to My Internship Project
 
-- **Apply DDD** to current projects: Event storming sessions with business teams  
-- **Refactor microservices**: Use bounded contexts to define service boundaries  
-- **Implement event-driven patterns**: Replace some sync calls with async messaging  
-- **Adopt serverless**: Pilot AWS Lambda for suitable use cases  
-- **Try Amazon Q Developer**: Integrate into the dev workflow to boost productivity  
+My internship project is titled **"Design and Implementation of a Hybrid Cloud System Connecting Multi-Branch Enterprise Networks Using Site-to-Site VPN with Centralized Monitoring."**
 
-### Event Experience
+Although the main focus of my project is network infrastructure and cloud computing, knowledge of APIs can support the management and integration of services within the system in several ways:
 
-Attending the **“GenAI-powered App-DB Modernization”** workshop was extremely valuable, giving me a comprehensive view of modernizing applications and databases using advanced methods and tools. Key experiences included:
+- **AWS Services:** Explore how AWS services provide APIs for managing cloud resources and performing operations programmatically.
+- **System Integration:** Understand the role of APIs in connecting applications and services related to the Hybrid Cloud environment.
+- **Centralized Monitoring:** Investigate how monitoring tools expose APIs for retrieving data, integrating information, or automating certain operations when needed.
+- **Security and Access Management:** Pay attention to authentication, authorization, and information protection when services exchange data.
+- **Automation:** Expand my knowledge of APIs to explore opportunities for automating cloud resource management in future development stages.
 
-#### Learning from highly skilled speakers
-- Experts from AWS and major tech organizations shared **best practices** in modern application design.  
-- Through real-world case studies, I gained a deeper understanding of applying **DDD** and **Event-Driven Architecture** to large projects.  
+These topics provide a broader perspective on the relationship between software development, service management, and cloud infrastructure operations.
 
-#### Hands-on technical exposure
-- Participating in **event storming** sessions helped me visualize how to **model business processes** into domain events.  
-- Learned how to **split microservices** and define **bounded contexts** to manage large-system complexity.  
-- Understood trade-offs between **synchronous and asynchronous communication** and integration patterns like **pub/sub, point-to-point, streaming**.  
+## 6. Event Experience
 
-#### Leveraging modern tools
-- Explored **Amazon Q Developer**, an AI tool for SDLC support from planning to maintenance.  
-- Learned to **automate code transformation** and pilot serverless with **AWS Lambda** to improve productivity.  
+Participating in the Mini Meetup – First Cloud AI Journey on August 22, 2026, gave me an opportunity to explore APIs in Backend development and better understand an important aspect of modern system design.
 
-#### Networking and discussions
-- The workshop offered opportunities to exchange ideas with experts, peers, and business teams, enhancing the **ubiquitous language** between business and tech.  
-- Real-world examples reinforced the importance of the **business-first approach** rather than focusing solely on technology.  
+Through the topic shared by Nguyen Nhan, I gained further insight into API design principles, particularly consistency, maintainability, and scalability. These factors are essential for enabling software components to communicate effectively as systems grow in complexity.
 
-#### Lessons learned
-- Applying DDD and event-driven patterns reduces **coupling** while improving **scalability** and **resilience**.  
-- Modernization requires a **phased approach** with **ROI measurement**; rushing the process can be risky.  
-- AI tools like Amazon Q Developer can significantly **boost productivity** when integrated into the current workflow.  
+In addition to the technical content, the knowledge-sharing spirit among FCAJ members was another valuable aspect of the event. It encouraged participants to learn proactively, exchange experiences, and contribute knowledge to the community.
 
-#### Some event photos
-*Add your event photos here*  
+## 7. Conclusion and Lessons Learned
 
-> Overall, the event not only provided technical knowledge but also helped me reshape my thinking about application design, system modernization, and cross-team collaboration.
+Through the Mini Meetup – First Cloud AI Journey on August 22, 2026, I gained a better understanding of how APIs connect and integrate services in modern systems. API design should prioritize consistency, usability, security, maintainability, and scalability.
+
+Furthermore, the meetup helped me recognize the value of continuous learning and knowledge sharing within the technology community. The knowledge gained provides a foundation for further exploring APIs, understanding how AWS services interact, and investigating the potential integration of APIs into Hybrid Cloud management and monitoring.

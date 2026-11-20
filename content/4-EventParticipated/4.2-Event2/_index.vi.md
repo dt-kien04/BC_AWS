@@ -1,125 +1,111 @@
+
 ---
-title: "Event 2"
-date: 2024-01-01
-weight: 1
+title: "Meeting 2"
+date: 2026-08-22
+weight: 2
 chapter: false
-pre: " <b> 4.2. </b> "
+pre: " <b> 3.2. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+# Bài thu hoạch Mini Meetup – First Cloud AI Journey
 
-# Bài thu hoạch “GenAI-powered App-DB Modernization workshop”
+## 1. Mục đích của sự kiện
 
-### Mục Đích Của Sự Kiện
+Mini Meetup – First Cloud AI Journey ngày 22/08/2026 là buổi gặp gỡ và chia sẻ kiến thức do cộng đồng FCAJ tổ chức. Sự kiện tập trung vào chủ đề các chuẩn API trong Backend, giúp người tham gia hiểu rõ hơn về vai trò của API trong quá trình xây dựng và phát triển các hệ thống phần mềm hiện đại.
 
-- Chia sẻ best practices trong thiết kế ứng dụng hiện đại
-- Giới thiệu phương pháp DDD và event-driven architecture
-- Hướng dẫn lựa chọn compute services phù hợp
-- Giới thiệu công cụ AI hỗ trợ development lifecycle
+Các mục tiêu chính của sự kiện bao gồm:
 
-### Danh Sách Diễn Giả
+- Tìm hiểu vai trò của API trong việc kết nối và trao đổi dữ liệu giữa các thành phần của hệ thống.
+- Tiếp cận các chuẩn và nguyên tắc quan trọng khi thiết kế API trong Backend.
+- Hiểu được tầm quan trọng của việc xây dựng API dễ sử dụng, dễ bảo trì và có khả năng mở rộng.
+- Khuyến khích tinh thần học hỏi, chia sẻ kiến thức và phát triển chuyên môn trong cộng đồng công nghệ.
 
-- **Jignesh Shah** - Director, Open Source Databases
-- **Erica Liu** - Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** - Assc. Specialist SA, Serverless Amazon Web Services
+## 2. Diễn giả và chủ đề chia sẻ
 
-### Nội Dung Nổi Bật
+- **Nguyễn Nhân – FCAJ Member:** Các chuẩn API trong Backend.
 
-#### Đưa ra các ảnh hưởng tiêu cực của kiến trúc ứng dụng cũ
+## 3. Nội dung nổi bật
 
-- Thời gian release sản phẩm lâu → Mất doanh thu/bỏ lỡ cơ hội
-- Hoạt động kém hiệu quả → Mất năng suất, tốn kém chi phí
-- Không tuân thủ các quy định về bảo mật → Mất an ninh, uy tín
+### 3.1. Tổng quan về API trong Backend
 
-#### Chuyển đổi sang kiến trúc ứng dụng mới - Microservice Architecture
+API (Application Programming Interface) là giao diện cho phép các ứng dụng hoặc thành phần phần mềm giao tiếp và trao đổi dữ liệu với nhau. Trong các hệ thống hiện đại, API đóng vai trò quan trọng trong việc kết nối Frontend với Backend, tích hợp các dịch vụ và hỗ trợ trao đổi dữ liệu giữa những hệ thống khác nhau.
 
-Chuyển đổi thành hệ thống modular – từng chức năng là một **dịch vụ độc lập** giao tiếp với nhau qua **sự kiện** với 3 trụ cột cốt lõi:
+Một số nội dung cơ bản liên quan đến API:
 
-- **Queue Management**: Xử lý tác vụ bất đồng bộ
-- **Caching Strategy:** Tối ưu performance
-- **Message Handling:** Giao tiếp linh hoạt giữa services
+- Hiểu khái niệm API và vai trò của API trong kiến trúc phần mềm.
+- Nhận biết cách API hỗ trợ giao tiếp giữa các ứng dụng và dịch vụ.
+- Hiểu tầm quan trọng của việc thiết kế API rõ ràng, thống nhất và dễ sử dụng.
+- Nhận thức được vai trò của API trong việc tích hợp các thành phần của một hệ thống lớn.
 
-#### Domain-Driven Design (DDD)
+### 3.2. Các chuẩn và nguyên tắc thiết kế API
 
-- **Phương pháp 4 bước**: Xác định domain events → sắp xếp timeline → identify actors → xác định bounded contexts
-- **Case study bookstore**: Minh họa cách áp dụng DDD thực tế
-- **Context mapping**: 7 patterns tích hợp bounded contexts
+Session tập trung vào việc tìm hiểu các chuẩn và nguyên tắc quan trọng khi xây dựng API trong Backend, hướng đến khả năng sử dụng thuận tiện, dễ bảo trì và mở rộng khi hệ thống phát triển.
 
-#### Event-Driven Architecture
+Các khía cạnh đáng chú ý bao gồm:
 
-- **3 patterns tích hợp**: Publish/Subscribe, Point-to-point, Streaming
-- **Lợi ích**: Loose coupling, scalability, resilience
-- **So sánh sync vs async**: Hiểu rõ trade-offs (sự đánh đổi)
+- **Tính nhất quán:** Sử dụng cách đặt tên endpoint, cấu trúc dữ liệu và định dạng phản hồi thống nhất.
+- **Tính dễ sử dụng:** Thiết kế các endpoint rõ ràng, giúp những ứng dụng hoặc dịch vụ khác dễ dàng tích hợp.
+- **Khả năng bảo trì:** Tổ chức API hợp lý để thuận tiện cho việc cập nhật, sửa lỗi và phát triển chức năng mới.
+- **Khả năng mở rộng:** Xây dựng API có cấu trúc phù hợp để đáp ứng nhu cầu phát triển của hệ thống.
+- **Tính tương thích:** Hạn chế những thay đổi gây ảnh hưởng đến các ứng dụng đang sử dụng API.
 
-#### Compute Evolution
+Những nguyên tắc này cho thấy việc xây dựng API không chỉ tập trung vào khả năng xử lý yêu cầu mà còn cần quan tâm đến chất lượng thiết kế và khả năng vận hành lâu dài.
 
-- **Shared Responsibility Model**: Từ EC2 → ECS → Fargate → Lambda
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value
-- **Functions vs Containers**: Criteria lựa chọn phù hợp
+### 3.3. Vai trò của API trong các hệ thống hiện đại
 
-#### Amazon Q Developer
+Khi hệ thống phần mềm ngày càng phát triển, API trở thành thành phần quan trọng giúp các dịch vụ giao tiếp và phối hợp với nhau. Một thiết kế API phù hợp có thể giúp giảm sự phụ thuộc giữa các thành phần, hỗ trợ tích hợp và tạo điều kiện thuận lợi cho việc phát triển hệ thống.
 
-- **SDLC automation**: Từ planning đến maintenance
-- **Code transformation**: Java upgrade, .NET modernization
-- **AWS Transform agents**: VMware, Mainframe, .NET migration
+Một số nội dung cần quan tâm khi thiết kế API:
 
-### Những Gì Học Được
+- Xác định rõ mục đích của từng endpoint và dữ liệu cần trao đổi.
+- Chuẩn hóa cách xử lý yêu cầu, phản hồi và thông báo lỗi.
+- Chú trọng đến xác thực, phân quyền và bảo vệ dữ liệu khi cung cấp API.
+- Xem xét việc quản lý phiên bản khi cần thay đổi hoặc bổ sung chức năng.
+- Cung cấp tài liệu API rõ ràng để hỗ trợ quá trình phát triển và tích hợp.
 
-#### Tư Duy Thiết Kế
+Các nội dung trên là những nguyên tắc có thể áp dụng khi thiết kế và xây dựng các hệ thống phần mềm trong thực tế.
 
-- **Business-first approach**: Luôn bắt đầu từ business domain, không phải technology
-- **Ubiquitous language**: Importance của common vocabulary giữa business và tech teams
-- **Bounded contexts**: Cách identify và manage complexity trong large systems
+## 4. Những kiến thức và kỹ năng học được
 
-#### Kiến Trúc Kỹ Thuật
+### 4.1. Kiến thức chuyên môn
 
-- **Event storming technique**: Phương pháp thực tế để mô hình hóa quy trình kinh doanh
-- Sử dụng **Event-driven communication** thay vì synchronous calls
-- **Integration patterns**: Hiểu khi nào dùng sync, async, pub/sub, streaming
-- **Compute spectrum**: Criteria chọn từ VM → containers → serverless
+- **API và Backend:** Hiểu rõ hơn vai trò của API trong việc kết nối các thành phần của hệ thống phần mềm.
+- **Thiết kế API:** Nhận thức được tầm quan trọng của tính nhất quán, tính dễ sử dụng và khả năng bảo trì.
+- **Tích hợp hệ thống:** Hiểu thêm cách API hỗ trợ giao tiếp và trao đổi dữ liệu giữa các ứng dụng hoặc dịch vụ.
+- **Bảo mật API:** Nhận thức được sự cần thiết của việc xác thực, phân quyền và bảo vệ dữ liệu khi xây dựng các giao diện dịch vụ.
+- **Khả năng mở rộng:** Hiểu rằng thiết kế API cần tính đến nhu cầu phát triển và thay đổi của hệ thống trong tương lai.
 
-#### Chiến Lược Hiện Đại Hóa
+### 4.2. Kỹ năng phát triển bản thân
 
-- **Phased approach**: Không rush, phải có roadmap rõ ràng
-- **7Rs framework**: Nhiều con đường khác nhau tùy thuộc vào đặc điểm của mỗi ứng dụng
-- **ROI measurement**: Cost reduction + business agility
+- Nâng cao khả năng tiếp cận và tìm hiểu các kiến thức kỹ thuật mới.
+- Hiểu được giá trị của việc chia sẻ kiến thức và kinh nghiệm thực tế trong cộng đồng công nghệ.
+- Có thêm định hướng tìm hiểu cách thiết kế, tài liệu hóa và kiểm thử API.
+- Nhận thức được tầm quan trọng của việc học hỏi liên tục để đáp ứng yêu cầu phát triển của các hệ thống hiện đại.
 
-### Ứng Dụng Vào Công Việc
+## 5. Ứng dụng vào đề tài thực tập
 
-- **Áp dụng DDD** cho project hiện tại: Event storming sessions với business team
-- **Refactor microservices**: Sử dụng bounded contexts để identify service boundaries
-- **Implement event-driven patterns**: Thay thế một số sync calls bằng async messaging
-- **Serverless adoption**: Pilot AWS Lambda cho một số use cases phù hợp
-- **Try Amazon Q Developer**: Integrate vào development workflow để boost productivity
+Đề tài thực tập của tôi là **"Thiết kế và triển khai hệ thống Hybrid Cloud kết nối mạng doanh nghiệp đa chi nhánh bằng VPN Site-to-Site tích hợp giải pháp giám sát tập trung"**.
 
-### Trải nghiệm trong event
+Mặc dù nội dung chính của đề tài tập trung vào hạ tầng mạng và điện toán đám mây, kiến thức về API vẫn có thể hỗ trợ quá trình tìm hiểu và quản lý các dịch vụ trong hệ thống theo những hướng sau:
 
-Tham gia workshop **“GenAI-powered App-DB Modernization”** là một trải nghiệm rất bổ ích, giúp tôi có cái nhìn toàn diện về cách hiện đại hóa ứng dụng và cơ sở dữ liệu bằng các phương pháp và công cụ hiện đại. Một số trải nghiệm nổi bật:
+- **Tìm hiểu dịch vụ AWS:** Nghiên cứu cách các dịch vụ AWS cung cấp API để quản lý tài nguyên và thực hiện các thao tác thông qua giao diện lập trình.
+- **Tích hợp hệ thống:** Hiểu vai trò của API trong việc kết nối các ứng dụng và dịch vụ có liên quan đến hệ thống Hybrid Cloud.
+- **Giám sát tập trung:** Tìm hiểu khả năng sử dụng API của các công cụ giám sát để truy xuất dữ liệu, tích hợp thông tin hoặc tự động hóa một số thao tác khi cần thiết.
+- **Bảo mật và quản lý truy cập:** Chú trọng đến cơ chế xác thực, phân quyền và bảo vệ thông tin khi các dịch vụ trao đổi dữ liệu.
+- **Tự động hóa:** Mở rộng kiến thức về API để nghiên cứu khả năng tự động hóa việc quản lý tài nguyên cloud trong các giai đoạn phát triển tiếp theo.
 
-#### Học hỏi từ các diễn giả có chuyên môn cao
-- Các diễn giả đến từ AWS và các tổ chức công nghệ lớn đã chia sẻ **best practices** trong thiết kế ứng dụng hiện đại.
-- Qua các case study thực tế, tôi hiểu rõ hơn cách áp dụng **Domain-Driven Design (DDD)** và **Event-Driven Architecture** vào các project lớn.
+Những nội dung này giúp tôi có thêm góc nhìn về sự liên kết giữa phát triển phần mềm, quản lý dịch vụ và vận hành hạ tầng cloud.
 
-#### Trải nghiệm kỹ thuật thực tế
-- Tham gia các phiên trình bày về **event storming** giúp tôi hình dung cách **mô hình hóa quy trình kinh doanh** thành các domain events.
-- Học cách **phân tách microservices** và xác định **bounded contexts** để quản lý sự phức tạp của hệ thống lớn.
-- Hiểu rõ trade-offs giữa **synchronous và asynchronous communication** cũng như các pattern tích hợp như **pub/sub, point-to-point, streaming**.
+## 6. Trải nghiệm khi tham gia sự kiện
 
-#### Ứng dụng công cụ hiện đại
-- Trực tiếp tìm hiểu về **Amazon Q Developer**, công cụ AI hỗ trợ SDLC từ lập kế hoạch đến maintenance.
-- Học cách **tự động hóa code transformation** và pilot serverless với **AWS Lambda**, từ đó nâng cao năng suất phát triển.
+Tham gia Mini Meetup – First Cloud AI Journey ngày 22/08/2026 là cơ hội để tôi tiếp cận chủ đề API trong Backend và hiểu thêm về một khía cạnh quan trọng của quá trình xây dựng hệ thống phần mềm.
 
-#### Kết nối và trao đổi
-- Workshop tạo cơ hội trao đổi trực tiếp với các chuyên gia, đồng nghiệp và team business, giúp **nâng cao ngôn ngữ chung (ubiquitous language)** giữa business và tech.
-- Qua các ví dụ thực tế, tôi nhận ra tầm quan trọng của **business-first approach**, luôn bắt đầu từ nhu cầu kinh doanh thay vì chỉ tập trung vào công nghệ.
+Thông qua chủ đề do Nguyễn Nhân chia sẻ, tôi có thêm định hướng tìm hiểu về các nguyên tắc thiết kế API, đặc biệt là tính nhất quán, khả năng bảo trì và mở rộng. Đây là những yếu tố quan trọng giúp các thành phần phần mềm giao tiếp hiệu quả khi quy mô hệ thống ngày càng tăng.
 
-#### Bài học rút ra
-- Việc áp dụng DDD và event-driven patterns giúp giảm **coupling**, tăng **scalability** và **resilience** cho hệ thống.
-- Chiến lược hiện đại hóa cần **phased approach** và đo lường **ROI**, không nên vội vàng chuyển đổi toàn bộ hệ thống.
-- Các công cụ AI như Amazon Q Developer có thể **boost productivity** nếu được tích hợp vào workflow phát triển hiện tại.
+Bên cạnh nội dung kỹ thuật, tinh thần chia sẻ kiến thức giữa các thành viên FCAJ cũng là một điểm đáng chú ý. Hoạt động này khuyến khích mỗi thành viên chủ động học hỏi, trao đổi kinh nghiệm và đóng góp kiến thức cho cộng đồng.
 
-#### Một số hình ảnh khi tham gia sự kiện
-* Thêm các hình ảnh của các bạn tại đây
-> Tổng thể, sự kiện không chỉ cung cấp kiến thức kỹ thuật mà còn giúp tôi thay đổi cách tư duy về thiết kế ứng dụng, hiện đại hóa hệ thống và phối hợp hiệu quả hơn giữa các team.
+## 7. Kết luận và bài học rút ra
+
+Qua buổi Mini Meetup – First Cloud AI Journey ngày 22/08/2026, tôi nhận thấy API là một thành phần quan trọng trong việc kết nối và tích hợp các dịch vụ của hệ thống hiện đại. Việc thiết kế API cần đảm bảo tính nhất quán, dễ sử dụng, bảo mật, dễ bảo trì và có khả năng mở rộng.
+
+Bên cạnh đó, buổi meetup giúp tôi nhận thức rõ hơn về giá trị của việc học hỏi và chia sẻ kiến thức trong cộng đồng công nghệ. Những kiến thức thu được là cơ sở để tôi tiếp tục tìm hiểu về API, cách các dịch vụ AWS tương tác với nhau và khả năng tích hợp API vào quá trình quản lý, giám sát hệ thống Hybrid Cloud.

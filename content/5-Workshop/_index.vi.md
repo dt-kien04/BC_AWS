@@ -1,33 +1,32 @@
 ---
 title: "Workshop"
-date: 2024-01-01
+date: 2026-11-15
 weight: 5
 chapter: false
 pre: " <b> 5. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
 
-# Đảm bảo truy cập Hybrid an toàn đến S3 bằng cách sử dụng VPC endpoint
+
+# TRIỂN KHAI ỨNG DỤNG WEB TRAVEL SẴN SÀNG CAO VÀ TỰ ĐỘNG MỞ RỘNG TRÊN AWS
 
 #### Tổng quan
 
-**AWS PrivateLink** cung cấp kết nối riêng tư đến các dịch vụ aws từ VPCs hoặc trung tâm dữ liệu (on-premise) mà không làm lộ lưu lượng truy cập ra ngoài public internet.
+Kiến trúc điện toán đám mây hiện đại giúp giải quyết triệt để bài toán quá tải và điểm lỗi đơn lẻ (Single Point of Failure) của các máy chủ vật lý truyền thống bằng cách phân tách rõ ràng tầng mạng, tầng ứng dụng và tầng cơ sở dữ liệu.
 
-Trong bài lab này, chúng ta sẽ học cách tạo, cấu hình, và kiểm tra VPC endpoints để cho phép workload của bạn tiếp cận các dịch vụ AWS mà không cần đi qua Internet công cộng.
+Trong bài lab này, chúng ta sẽ học cách thiết kế, cấu hình và vận hành một hạ tầng hoàn chỉnh trên AWS cho ứng dụng đặt tour trực tuyến Web Travel (PHP/MySQL). Hệ thống được triển khai trong môi trường mạng cô lập nhiều vùng sẵn sàng (Multi-AZ), đảm bảo an toàn dữ liệu và sẵn sàng tự động mở rộng khi lưu lượng truy cập tăng cao.
 
-Chúng ta sẽ tạo hai loại endpoints để truy cập đến Amazon S3: gateway vpc endpoint và interface vpc endpoint. Hai loại vpc endpoints này mang đến nhiều lợi ích tùy thuộc vào việc bạn truy cập đến S3 từ môi trường cloud hay từ trung tâm dữ liệu (on-premise).
-+ **Gateway** - Tạo gateway endpoint để gửi lưu lượng đến Amazon S3 hoặc DynamoDB using private IP addresses. Bạn điều hướng lưu lượng từ VPC của bạn đến gateway endpoint bằng các bảng định tuyến (route tables)
-+ **Interface** - Tạo interface endpoint để gửi lưu lượng đến các dịch vụ điểm cuối (endpoints) sử dụng Network Load Balancer để phân phối lưu lượng. Lưu lượng dành cho dịch vụ điểm cuối được resolved bằng DNS.
+Chúng ta sẽ xây dựng và kết nối ba lớp dịch vụ cốt lõi để vận hành ứng dụng web chuẩn doanh nghiệp:
++ **Mạng riêng ảo và Bảo mật (Amazon VPC & Security Groups)** - Thiết lập hạ tầng mạng travel-vpc phân tách Public Subnets và Private Subnets, kiểm soát lưu lượng chặt chẽ qua hai lớp tường lửa TL-Web và TL-Database.
++ **Cơ sở dữ liệu quản trị (Amazon RDS)** - Triển khai cơ sở dữ liệu MySQL (travel-database) ẩn hoàn toàn trong Private Subnet để bảo vệ dữ liệu nghiệp vụ và kết nối nội bộ với máy chủ ứng dụng.
++ **Máy chủ ứng dụng và Tự động mở rộng (EC2, AMI & Auto Scaling)** - Vận hành mã nguồn trên EC2 Ubuntu (Web-travel-sv), đóng gói thành khuôn mẫu Web-Travel-AMI và thiết lập cụm Travel-auto-scaling-group tự động điều phối tài nguyên.
 
 #### Nội dung
 
-1. [Tổng quan về workshop](5.1-Workshop-overview/)
-2. [Chuẩn bị](5.2-Prerequiste/)
-3. [Truy cập đến S3 từ VPC](5.3-S3-vpc/)
-4. [Truy cập đến S3 từ TTDL On-premises](5.4-S3-onprem/)
-5. [VPC Endpoint Policies (làm thêm)](5.5-Policy/)
+1. [Giới thiệu](5.1-Workshop-overview/)
+2. [Các bước chuẩn bị](5.2-Prerequiste/)
+3. [Thiết lập hạ tầng mạng VPC và Cơ sở dữ liệu RDS](5.3-S3-vpc/)
+4. [Triển khai Web Server trên EC2 và Kiểm thử ứng dụng](5.4-S3-onprem/)
+5. [Đóng gói AMI và Cấu hình Auto Scaling Group)](5.5-Policy/)
 6. [Dọn dẹp tài nguyên](5.6-Cleanup/)

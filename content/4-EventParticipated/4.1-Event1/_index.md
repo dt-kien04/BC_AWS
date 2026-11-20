@@ -1,126 +1,106 @@
+
 ---
-title: "Event 1"
-date: 2024-01-01
+title: "Meeting 1"
+date: 2026-08-15
 weight: 1
 chapter: false
-pre: " <b> 4.1. </b> "
+pre: " <b> 3.1. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
-{{% /notice %}}
+# Report on the Mini Meetup – First Cloud AI Journey
 
-# Summary Report: “GenAI-powered App-DB Modernization workshop”
+## 1. mini meetup Objectives
 
-### Event Objectives
+The Mini Meetup – First Cloud AI Journey was a knowledge-sharing event organized by the FCAJ community for people interested in Cloud, AI, and modern technologies. The event provided an opportunity for participants to gain foundational knowledge of cloud computing, explore different server infrastructure options, and learn how to build a personal brand in the technology industry.
 
-- Share best practices in modern application design
-- Introduce Domain-Driven Design (DDD) and event-driven architecture
-- Provide guidance on selecting the right compute services
-- Present AI tools to support the development lifecycle
+The main objectives of the mini meetup were:
 
-### Speakers
+- To explore fundamental concepts and learning pathways in Cloud Computing.
+- To understand the differences between common hosting models and server options.
+- To learn how to build a personal brand through LinkedIn to support academic and career development.
+- To connect and exchange knowledge with a community of people who share an interest in Cloud and technology.
 
-- **Jignesh Shah** – Director, Open Source Databases
-- **Erica Liu** – Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** – Assc. Specialist SA, Serverless Amazon Web Services
+## 2. Speakers and Topics
 
-### Key Highlights
+- **Phung Hai Long – Marketing Manager, Thanh Cong Group:** LinkedIn and Personal Branding.
+- **Phuong Nguyen:** The Very First Step into the Cloud.
+- **Pham Minh Quang:** Right Server, Right Job – Comparing Hosting Types and Server Options.
 
-#### Identifying the drawbacks of legacy application architecture
+## 3. Key Topics
 
-- Long product release cycles → Lost revenue/missed opportunities  
-- Inefficient operations → Reduced productivity, higher costs  
-- Non-compliance with security regulations → Security breaches, loss of reputation  
+### 3.1. LinkedIn and Personal Branding
 
-#### Transitioning to modern application architecture – Microservices
+The first session discussed the role of LinkedIn in building a professional image and creating career opportunities. In addition to technical knowledge, presenting one's skills, experience, and career goals clearly is also important for information technology students.
 
-Migrating to a modular system — each function is an **independent service** communicating via **events**, built on three core pillars:
+Key takeaways included:
 
-- **Queue Management**: Handle asynchronous tasks  
-- **Caching Strategy**: Optimize performance  
-- **Message Handling**: Flexible inter-service communication  
+- Building a professional LinkedIn profile that clearly communicates personal interests and career objectives.
+- Presenting technical skills, knowledge, and completed projects to demonstrate professional capabilities.
+- Connecting with technology communities, industry professionals, and people with similar interests.
+- Sharing learning experiences and practical projects to gradually establish professional credibility.
 
-#### Domain-Driven Design (DDD)
+### 3.2. The Very First Step into the Cloud
 
-- **Four-step method**: Identify domain events → arrange timeline → identify actors → define bounded contexts  
-- **Bookstore case study**: Demonstrates real-world DDD application  
-- **Context mapping**: 7 patterns for integrating bounded contexts  
+The second session focused on the first steps toward understanding cloud computing. This topic was directly relevant to my internship and research into Hybrid Cloud systems.
 
-#### Event-Driven Architecture
+The key learning points included:
 
-- **3 integration patterns**: Publish/Subscribe, Point-to-point, Streaming  
-- **Benefits**: Loose coupling, scalability, resilience  
-- **Sync vs async comparison**: Understanding the trade-offs  
+- Understanding the concept of Cloud Computing and the benefits of accessing computing resources over the Internet.
+- Becoming familiar with cloud service models, resource provisioning, and scalability.
+- Recognizing the importance of foundational knowledge in networking, servers, storage, and security before deploying cloud systems.
+- Developing an appropriate learning path that combines theoretical knowledge with hands-on practice on cloud platforms.
 
-#### Compute Evolution
+Through this session, I recognized that computer networking is an important foundation for learning AWS services, configuring network connectivity, and deploying hybrid infrastructure that integrates on-premises systems with cloud environments.
 
-- **Shared Responsibility Model**: EC2 → ECS → Fargate → Lambda  
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value  
-- **Functions vs Containers**: Criteria for appropriate choice  
+### 3.3. Right Server, Right Job – Comparing Hosting Types and Server Options
 
-#### Amazon Q Developer
+The third session introduced common hosting models and server options, emphasizing that infrastructure decisions should be based on the actual requirements of each system.
 
-- **SDLC automation**: From planning to maintenance  
-- **Code transformation**: Java upgrade, .NET modernization  
-- **AWS Transform agents**: VMware, Mainframe, .NET migration  
+Key topics included:
 
-### Key Takeaways
+- Exploring common hosting models and server types, along with their differences.
+- Evaluating factors such as performance, scalability, level of control, security, and operating costs.
+- Understanding that server infrastructure should be selected according to the purpose and requirements of an application.
+- Recognizing the importance of balancing technical requirements with budget constraints when designing infrastructure.
 
-#### Design Mindset
+These insights provided a useful foundation for selecting appropriate AWS resources for deploying a web server and monitoring tools as part of my internship project.
 
-- **Business-first approach**: Always start from the business domain, not the technology  
-- **Ubiquitous language**: Importance of a shared vocabulary between business and tech teams  
-- **Bounded contexts**: Identifying and managing complexity in large systems  
+## 4. Knowledge and Skills Gained
 
-#### Technical Architecture
+### 4.1. Technical Knowledge
 
-- **Event storming technique**: Practical method for modeling business processes  
-- Use **event-driven communication** instead of synchronous calls  
-- **Integration patterns**: When to use sync, async, pub/sub, streaming  
-- **Compute spectrum**: Criteria for choosing between VM, containers, and serverless  
+- **Cloud Computing:** Strengthened my understanding of cloud computing and its role in delivering IT resources.
+- **Server Infrastructure:** Gained a clearer perspective on selecting hosting models and server configurations according to system requirements.
+- **Computer Networking:** Better understood the relationship between networking fundamentals and connectivity management in cloud environments.
+- **Security and Cost Optimization:** Recognized the importance of balancing performance, security, and cost when designing IT systems.
 
-#### Modernization Strategy
+### 4.2. Personal Development Skills
 
-- **Phased approach**: No rushing — follow a clear roadmap  
-- **7Rs framework**: Multiple modernization paths depending on the application  
-- **ROI measurement**: Cost reduction + business agility  
+- Learned more about the role of LinkedIn in building a professional profile and expanding a professional network.
+- Developed a clearer direction for presenting technical skills, knowledge, and practical projects.
+- Recognized the importance of self-learning, keeping up with technological developments, and sharing knowledge with the community.
 
-### Applying to Work
+## 5. Application to My Internship Project
 
-- **Apply DDD** to current projects: Event storming sessions with business teams  
-- **Refactor microservices**: Use bounded contexts to define service boundaries  
-- **Implement event-driven patterns**: Replace some sync calls with async messaging  
-- **Adopt serverless**: Pilot AWS Lambda for suitable use cases  
-- **Try Amazon Q Developer**: Integrate into the dev workflow to boost productivity  
+My internship project is titled **"Design and Implementation of a Hybrid Cloud System Connecting Multi-Branch Enterprise Networks Using Site-to-Site VPN with Centralized Monitoring."**
 
-### Event Experience
+The knowledge gained from the meetup can be applied to my project in the following ways:
 
-Attending the **“GenAI-powered App-DB Modernization”** workshop was extremely valuable, giving me a comprehensive view of modernizing applications and databases using advanced methods and tools. Key experiences included:
+- **Infrastructure Selection:** Apply knowledge of server options to select AWS resources suitable for hosting a web server and monitoring tools.
+- **Hybrid Cloud Design:** Continue strengthening my understanding of networking, routing, and Site-to-Site VPN connectivity between on-premises infrastructure and AWS.
+- **Cost Optimization:** Select appropriate resource configurations, monitor resource utilization, and minimize unnecessary expenses during practical implementation.
+- **Professional Portfolio Development:** Document the implementation process, technical challenges, and project outcomes to build a portfolio for future academic and career opportunities.
 
-#### Learning from highly skilled speakers
-- Experts from AWS and major tech organizations shared **best practices** in modern application design.  
-- Through real-world case studies, I gained a deeper understanding of applying **DDD** and **Event-Driven Architecture** to large projects.  
+## 6. Event Experience
 
-#### Hands-on technical exposure
-- Participating in **event storming** sessions helped me visualize how to **model business processes** into domain events.  
-- Learned how to **split microservices** and define **bounded contexts** to manage large-system complexity.  
-- Understood trade-offs between **synchronous and asynchronous communication** and integration patterns like **pub/sub, point-to-point, streaming**.  
+Participating in the Mini Meetup – First Cloud AI Journey gave me an opportunity to explore different perspectives on technology and career development. The three sessions combined technical knowledge of cloud computing, server infrastructure selection, and personal branding.
 
-#### Leveraging modern tools
-- Explored **Amazon Q Developer**, an AI tool for SDLC support from planning to maintenance.  
-- Learned to **automate code transformation** and pilot serverless with **AWS Lambda** to improve productivity.  
+Through the session The Very First Step into the Cloud, I became more motivated to strengthen my foundational knowledge and continue practicing with AWS. The discussion about hosting models and server options helped me recognize that successful system deployment involves more than simply making a service work; performance, suitability, and cost must also be considered.
 
-#### Networking and discussions
-- The workshop offered opportunities to exchange ideas with experts, peers, and business teams, enhancing the **ubiquitous language** between business and tech.  
-- Real-world examples reinforced the importance of the **business-first approach** rather than focusing solely on technology.  
+In addition, the LinkedIn session helped me better understand the importance of building a professional profile and showcasing practical projects when developing a career in information technology.
 
-#### Lessons learned
-- Applying DDD and event-driven patterns reduces **coupling** while improving **scalability** and **resilience**.  
-- Modernization requires a **phased approach** with **ROI measurement**; rushing the process can be risky.  
-- AI tools like Amazon Q Developer can significantly **boost productivity** when integrated into the current workflow.  
+## 7. Conclusion and Lessons Learned
 
-#### Some event photos
-*Add your event photos here*  
+Through the Mini Meetup – First Cloud AI Journey on August 15, 2026, I gained additional insights into cloud computing, server infrastructure options, and personal branding in the technology industry.
 
-> Overall, the event not only provided technical knowledge but also helped me reshape my thinking about application design, system modernization, and cross-team collaboration.
+The most important lesson was the need to combine foundational knowledge with practical experience while selecting technical solutions based on system requirements and budget constraints. These insights will support my continued learning of AWS, the development of my Hybrid Cloud model, and the implementation of centralized monitoring during my internship.

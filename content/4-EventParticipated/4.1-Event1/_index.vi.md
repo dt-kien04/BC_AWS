@@ -1,125 +1,106 @@
+
 ---
-title: "Event 1"
-date: 2024-01-01
+title: "Meeting 1"
+date: 2026-08-15
 weight: 1
 chapter: false
-pre: " <b> 4.1. </b> "
+pre: " <b> 3.1. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+# Bài thu hoạch Mini Meetup – First Cloud AI Journey
 
-# Bài thu hoạch “GenAI-powered App-DB Modernization workshop”
+## 1. Mục đích của buổi gặp mặt
 
-### Mục Đích Của Sự Kiện
+Mini Meetup – First Cloud AI Journey là buổi gặp gỡ và chia sẻ kiến thức do cộng đồng FCAJ tổ chức, hướng đến những người quan tâm đến Cloud, AI và công nghệ. Chương trình tạo cơ hội để người tham gia tiếp cận kiến thức nền tảng về điện toán đám mây, tìm hiểu các lựa chọn hạ tầng máy chủ và phát triển thương hiệu cá nhân trong lĩnh vực công nghệ.
 
-- Chia sẻ best practices trong thiết kế ứng dụng hiện đại
-- Giới thiệu phương pháp DDD và event-driven architecture
-- Hướng dẫn lựa chọn compute services phù hợp
-- Giới thiệu công cụ AI hỗ trợ development lifecycle
+Các mục tiêu chính của buổi gặp mặt bao gồm:
 
-### Danh Sách Diễn Giả
+- Tìm hiểu những kiến thức cơ bản và định hướng học tập trong lĩnh vực Cloud Computing.
+- Nắm được sự khác biệt giữa các mô hình hosting và các lựa chọn máy chủ phổ biến.
+- Tìm hiểu cách xây dựng thương hiệu cá nhân thông qua LinkedIn nhằm hỗ trợ học tập và phát triển sự nghiệp.
+- Mở rộng cơ hội giao lưu, trao đổi kiến thức với cộng đồng có cùng định hướng về Cloud và công nghệ.
 
-- **Jignesh Shah** - Director, Open Source Databases
-- **Erica Liu** - Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** - Assc. Specialist SA, Serverless Amazon Web Services
+## 2. Danh sách diễn giả và chủ đề chia sẻ
 
-### Nội Dung Nổi Bật
+- **Phùng Hải Long – Marketing Manager, Thành Công Group:** LinkedIn và cách xây dựng Personal Branding.
+- **Phương Nguyễn:** The Very First Step into the Cloud.
+- **Phạm Minh Quang:** Right Server, Right Job – Comparing Hosting Types and Server Options.
 
-#### Đưa ra các ảnh hưởng tiêu cực của kiến trúc ứng dụng cũ
+## 3. Nội dung nổi bật
 
-- Thời gian release sản phẩm lâu → Mất doanh thu/bỏ lỡ cơ hội
-- Hoạt động kém hiệu quả → Mất năng suất, tốn kém chi phí
-- Không tuân thủ các quy định về bảo mật → Mất an ninh, uy tín
+### 3.1. LinkedIn và cách xây dựng thương hiệu cá nhân
 
-#### Chuyển đổi sang kiến trúc ứng dụng mới - Microservice Architecture
+Session đầu tiên đề cập đến vai trò của LinkedIn trong việc xây dựng hình ảnh cá nhân và phát triển cơ hội nghề nghiệp. Bên cạnh kiến thức chuyên môn, việc trình bày năng lực, kinh nghiệm và định hướng nghề nghiệp một cách rõ ràng cũng là yếu tố quan trọng đối với sinh viên công nghệ thông tin.
 
-Chuyển đổi thành hệ thống modular – từng chức năng là một **dịch vụ độc lập** giao tiếp với nhau qua **sự kiện** với 3 trụ cột cốt lõi:
+Những nội dung đáng chú ý:
 
-- **Queue Management**: Xử lý tác vụ bất đồng bộ
-- **Caching Strategy:** Tối ưu performance
-- **Message Handling:** Giao tiếp linh hoạt giữa services
+- Xây dựng hồ sơ LinkedIn chuyên nghiệp, thể hiện rõ lĩnh vực quan tâm và mục tiêu nghề nghiệp.
+- Trình bày kiến thức, kỹ năng và các dự án đã thực hiện để thể hiện năng lực bản thân.
+- Chủ động kết nối với cộng đồng công nghệ, chuyên gia và những người có cùng định hướng.
+- Chia sẻ quá trình học tập và thực hành để từng bước xây dựng uy tín cá nhân.
 
-#### Domain-Driven Design (DDD)
+### 3.2. The Very First Step into the Cloud
 
-- **Phương pháp 4 bước**: Xác định domain events → sắp xếp timeline → identify actors → xác định bounded contexts
-- **Case study bookstore**: Minh họa cách áp dụng DDD thực tế
-- **Context mapping**: 7 patterns tích hợp bounded contexts
+Session thứ hai tập trung vào những bước đầu tiên khi tìm hiểu điện toán đám mây. Đây là nội dung có liên hệ trực tiếp với quá trình thực tập và nghiên cứu đề tài Hybrid Cloud.
 
-#### Event-Driven Architecture
+Một số kiến thức và định hướng quan trọng:
 
-- **3 patterns tích hợp**: Publish/Subscribe, Point-to-point, Streaming
-- **Lợi ích**: Loose coupling, scalability, resilience
-- **So sánh sync vs async**: Hiểu rõ trade-offs (sự đánh đổi)
+- Tìm hiểu khái niệm Cloud Computing và lợi ích của việc sử dụng tài nguyên điện toán qua Internet.
+- Làm quen với các loại dịch vụ cloud, cách cung cấp tài nguyên và khả năng mở rộng theo nhu cầu sử dụng.
+- Hiểu tầm quan trọng của việc xây dựng nền tảng về mạng máy tính, máy chủ, lưu trữ và bảo mật trước khi triển khai các hệ thống cloud.
+- Xác định lộ trình học tập phù hợp, kết hợp kiến thức lý thuyết với thực hành trên các nền tảng cloud.
 
-#### Compute Evolution
+Qua session này, tôi nhận thấy kiến thức mạng máy tính là nền tảng quan trọng để tiếp tục tìm hiểu các dịch vụ AWS, cấu hình kết nối mạng và triển khai các mô hình hạ tầng kết hợp giữa hệ thống tại chỗ và môi trường đám mây.
 
-- **Shared Responsibility Model**: Từ EC2 → ECS → Fargate → Lambda
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value
-- **Functions vs Containers**: Criteria lựa chọn phù hợp
+### 3.3. Right Server, Right Job – Comparing Hosting Types and Server Options
 
-#### Amazon Q Developer
+Session thứ ba giới thiệu các mô hình hosting và lựa chọn máy chủ, qua đó nhấn mạnh rằng việc chọn hạ tầng cần dựa trên yêu cầu thực tế của từng hệ thống.
 
-- **SDLC automation**: Từ planning đến maintenance
-- **Code transformation**: Java upgrade, .NET modernization
-- **AWS Transform agents**: VMware, Mainframe, .NET migration
+Các nội dung chính:
 
-### Những Gì Học Được
+- Tìm hiểu các hình thức hosting và máy chủ phổ biến, cũng như sự khác biệt giữa các phương án triển khai.
+- Xem xét các yếu tố như hiệu năng, khả năng mở rộng, mức độ kiểm soát, bảo mật và chi phí vận hành.
+- Hiểu rằng việc lựa chọn máy chủ cần phù hợp với mục đích sử dụng và đặc điểm của ứng dụng.
+- Nhận thức được tầm quan trọng của việc cân đối giữa yêu cầu kỹ thuật và ngân sách khi thiết kế hạ tầng.
 
-#### Tư Duy Thiết Kế
+Những kiến thức này giúp tôi có thêm cơ sở để lựa chọn tài nguyên AWS phù hợp khi triển khai máy chủ web và các công cụ giám sát phục vụ đề tài thực tập.
 
-- **Business-first approach**: Luôn bắt đầu từ business domain, không phải technology
-- **Ubiquitous language**: Importance của common vocabulary giữa business và tech teams
-- **Bounded contexts**: Cách identify và manage complexity trong large systems
+## 4. Những kiến thức và kỹ năng học được
 
-#### Kiến Trúc Kỹ Thuật
+### 4.1. Kiến thức chuyên môn
 
-- **Event storming technique**: Phương pháp thực tế để mô hình hóa quy trình kinh doanh
-- Sử dụng **Event-driven communication** thay vì synchronous calls
-- **Integration patterns**: Hiểu khi nào dùng sync, async, pub/sub, streaming
-- **Compute spectrum**: Criteria chọn từ VM → containers → serverless
+- **Cloud Computing:** Củng cố định hướng tìm hiểu điện toán đám mây và vai trò của cloud trong việc cung cấp tài nguyên công nghệ thông tin.
+- **Hạ tầng máy chủ:** Nhận thức rõ hơn về sự cần thiết của việc lựa chọn mô hình hosting và máy chủ dựa trên yêu cầu của hệ thống.
+- **Mạng máy tính:** Hiểu thêm mối liên hệ giữa kiến thức mạng nền tảng và việc triển khai, quản lý kết nối trong môi trường cloud.
+- **Bảo mật và chi phí:** Nhận thức được tầm quan trọng của việc cân đối hiệu năng, bảo mật và chi phí khi thiết kế hệ thống.
 
-#### Chiến Lược Hiện Đại Hóa
+### 4.2. Kỹ năng phát triển bản thân
 
-- **Phased approach**: Không rush, phải có roadmap rõ ràng
-- **7Rs framework**: Nhiều con đường khác nhau tùy thuộc vào đặc điểm của mỗi ứng dụng
-- **ROI measurement**: Cost reduction + business agility
+- Biết thêm về vai trò của LinkedIn trong việc xây dựng hồ sơ nghề nghiệp và mở rộng mạng lưới kết nối.
+- Có định hướng rõ ràng hơn trong việc trình bày các kỹ năng, kiến thức và dự án thực hành.
+- Nhận thức được tầm quan trọng của việc tự học, chủ động cập nhật công nghệ và chia sẻ kinh nghiệm với cộng đồng.
 
-### Ứng Dụng Vào Công Việc
+## 5. Ứng dụng vào đề tài thực tập
 
-- **Áp dụng DDD** cho project hiện tại: Event storming sessions với business team
-- **Refactor microservices**: Sử dụng bounded contexts để identify service boundaries
-- **Implement event-driven patterns**: Thay thế một số sync calls bằng async messaging
-- **Serverless adoption**: Pilot AWS Lambda cho một số use cases phù hợp
-- **Try Amazon Q Developer**: Integrate vào development workflow để boost productivity
+Đề tài thực tập của tôi là **"Thiết kế và triển khai hệ thống Hybrid Cloud kết nối mạng doanh nghiệp đa chi nhánh bằng VPN Site-to-Site tích hợp giải pháp giám sát tập trung"**.
 
-### Trải nghiệm trong event
+Những kiến thức từ buổi meetup có thể được vận dụng vào đề tài theo các hướng sau:
 
-Tham gia workshop **“GenAI-powered App-DB Modernization”** là một trải nghiệm rất bổ ích, giúp tôi có cái nhìn toàn diện về cách hiện đại hóa ứng dụng và cơ sở dữ liệu bằng các phương pháp và công cụ hiện đại. Một số trải nghiệm nổi bật:
+- **Lựa chọn hạ tầng:** Vận dụng kiến thức về các lựa chọn máy chủ để xác định tài nguyên AWS phù hợp với nhu cầu triển khai máy chủ web và các công cụ giám sát.
+- **Thiết kế hệ thống Hybrid Cloud:** Tiếp tục củng cố kiến thức về mạng máy tính, định tuyến và kết nối VPN Site-to-Site giữa hạ tầng tại chỗ với AWS.
+- **Tối ưu chi phí:** Quan tâm đến việc lựa chọn cấu hình tài nguyên phù hợp, theo dõi mức sử dụng và hạn chế chi phí không cần thiết trong quá trình thực hành.
+- **Phát triển hồ sơ chuyên môn:** Ghi lại quá trình triển khai, các vấn đề gặp phải và kết quả đạt được để xây dựng hồ sơ dự án phục vụ học tập và ứng tuyển sau này.
 
-#### Học hỏi từ các diễn giả có chuyên môn cao
-- Các diễn giả đến từ AWS và các tổ chức công nghệ lớn đã chia sẻ **best practices** trong thiết kế ứng dụng hiện đại.
-- Qua các case study thực tế, tôi hiểu rõ hơn cách áp dụng **Domain-Driven Design (DDD)** và **Event-Driven Architecture** vào các project lớn.
+## 6. Trải nghiệm khi tham gia sự kiện
 
-#### Trải nghiệm kỹ thuật thực tế
-- Tham gia các phiên trình bày về **event storming** giúp tôi hình dung cách **mô hình hóa quy trình kinh doanh** thành các domain events.
-- Học cách **phân tách microservices** và xác định **bounded contexts** để quản lý sự phức tạp của hệ thống lớn.
-- Hiểu rõ trade-offs giữa **synchronous và asynchronous communication** cũng như các pattern tích hợp như **pub/sub, point-to-point, streaming**.
+Tham gia Mini Meetup – First Cloud AI Journey là cơ hội để tôi tiếp cận nhiều góc nhìn khác nhau về công nghệ và định hướng nghề nghiệp. Ba session mang đến sự kết hợp giữa kiến thức chuyên môn về Cloud, lựa chọn hạ tầng máy chủ và kỹ năng xây dựng thương hiệu cá nhân.
 
-#### Ứng dụng công cụ hiện đại
-- Trực tiếp tìm hiểu về **Amazon Q Developer**, công cụ AI hỗ trợ SDLC từ lập kế hoạch đến maintenance.
-- Học cách **tự động hóa code transformation** và pilot serverless với **AWS Lambda**, từ đó nâng cao năng suất phát triển.
+Thông qua chủ đề The Very First Step into the Cloud, tôi có thêm động lực để củng cố kiến thức nền tảng và tiếp tục thực hành trên AWS. Chủ đề về các mô hình hosting và server giúp tôi nhận thức rõ hơn rằng việc triển khai một hệ thống không chỉ dừng lại ở khả năng hoạt động mà còn cần quan tâm đến hiệu năng, tính phù hợp và chi phí.
 
-#### Kết nối và trao đổi
-- Workshop tạo cơ hội trao đổi trực tiếp với các chuyên gia, đồng nghiệp và team business, giúp **nâng cao ngôn ngữ chung (ubiquitous language)** giữa business và tech.
-- Qua các ví dụ thực tế, tôi nhận ra tầm quan trọng của **business-first approach**, luôn bắt đầu từ nhu cầu kinh doanh thay vì chỉ tập trung vào công nghệ.
+Bên cạnh đó, nội dung về LinkedIn giúp tôi hiểu rõ hơn vai trò của việc xây dựng hồ sơ chuyên môn và chia sẻ các dự án thực tế trong quá trình phát triển sự nghiệp công nghệ thông tin.
 
-#### Bài học rút ra
-- Việc áp dụng DDD và event-driven patterns giúp giảm **coupling**, tăng **scalability** và **resilience** cho hệ thống.
-- Chiến lược hiện đại hóa cần **phased approach** và đo lường **ROI**, không nên vội vàng chuyển đổi toàn bộ hệ thống.
-- Các công cụ AI như Amazon Q Developer có thể **boost productivity** nếu được tích hợp vào workflow phát triển hiện tại.
+## 7. Kết luận và bài học rút ra
 
-#### Một số hình ảnh khi tham gia sự kiện
-* Thêm các hình ảnh của các bạn tại đây
-> Tổng thể, sự kiện không chỉ cung cấp kiến thức kỹ thuật mà còn giúp tôi thay đổi cách tư duy về thiết kế ứng dụng, hiện đại hóa hệ thống và phối hợp hiệu quả hơn giữa các team.
+Qua buổi Mini Meetup – First Cloud AI Journey ngày 15/08/2026, tôi có thêm kiến thức định hướng về điện toán đám mây, các lựa chọn hạ tầng máy chủ và cách xây dựng thương hiệu cá nhân trong lĩnh vực công nghệ.
+
+Bài học quan trọng nhất là cần kết hợp kiến thức nền tảng với quá trình thực hành thực tế, đồng thời lựa chọn giải pháp kỹ thuật dựa trên nhu cầu của hệ thống và khả năng đáp ứng về chi phí. Những kiến thức này là cơ sở để tôi tiếp tục nghiên cứu AWS, hoàn thiện mô hình Hybrid Cloud và triển khai giải pháp giám sát tập trung trong quá trình thực tập.

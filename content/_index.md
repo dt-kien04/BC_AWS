@@ -8,9 +8,7 @@ chapter: false
     
 # Internship Report
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
-{{% /notice %}}
+
 
 ### Student Information:
 &emsp; **Full Name:** Do Trung Kien
@@ -31,7 +29,7 @@ chapter: false
 
 &emsp; **Internship Duration:** From 01/08/2026 đến 15/11/2026
 
-![Your profile picture](/images/avatar.jpeg)
+![Your profile picture](/images/anh.png)
 
 ### Report Content
 
