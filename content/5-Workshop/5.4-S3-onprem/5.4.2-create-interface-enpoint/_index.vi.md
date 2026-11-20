@@ -10,4 +10,4 @@ Nạp tệp travel_test.sql lên Endpoint của travel-database qua dòng lệnh
 
 Cập nhật thông tin kết nối (Endpoint, user admin, mật khẩu và tên database travel_test) trong tệp /var/www/html/php/ket_noi.php.
 
-![endpoint](/images/a30.png)
+![endpoint](/BC_AWS/images/a30.png)

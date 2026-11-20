@@ -11,4 +11,4 @@ Import travel_test.sql into the travel-database Endpoint using the mysql CLI.
 Update the database connection parameters (Endpoint, admin user, password, and travel_test database) inside /var/www/html/php/ket_noi.php.
 
 
-![endpoint](/images/a30.png)
+![endpoint](/BC_AWS/images/a30.png)

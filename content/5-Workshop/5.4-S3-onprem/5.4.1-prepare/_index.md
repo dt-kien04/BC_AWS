@@ -10,8 +10,8 @@ Generate the khoa-travel.pem security key pair and secure its local permissions 
 
 Launch Web-travel-sv (t3.micro, Ubuntu Server 24.04 LTS) inside Public Subnet 1 with the TL-Web security group attached.
 
-![endpoint](/images/a25.png)
-![endpoint](/images/a26.png)
-![endpoint](/images/a27.png)
-![endpoint](/images/a28.png)
-![endpoint](/images/a29.png)
+![endpoint](/BC_AWS/images/a25.png)
+![endpoint](/BC_AWS/images/a26.png)
+![endpoint](/BC_AWS/images/a27.png)
+![endpoint](/BC_AWS/images/a28.png)
+![endpoint](/BC_AWS/images/a29.png)

@@ -10,6 +10,6 @@ An active AWS account with the 100 USD Credits package enabled, operating in the
 
 The Web Travel source code standardized from XAMPP and pushed to a public GitHub repository (https://github.com) alongside the travel_test.sql database dump.
 
-![Cấu hình](/images/a-2.png)
+![Cấu hình](/BC_AWS/images/a-2.png)
 
 A personal workstation (MacBook Pro) equipped with Visual Studio Code or a Terminal supporting SSH connectivity.

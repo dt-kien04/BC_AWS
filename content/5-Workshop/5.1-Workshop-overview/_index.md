@@ -12,4 +12,4 @@ Problem Context: The Web Travel application provides tour browsing, user account
 
 Target Architecture: Deployed in the Singapore Region (ap-southeast-1) across two Availability Zones (ap-southeast-1a and ap-southeast-1b), optimized to operate well within a 100 USD AWS Promotional Credits budget.
 
-![Cấu hình](/images/a-1.png)
+![Cấu hình](/BC_AWS/images/a-1.png)

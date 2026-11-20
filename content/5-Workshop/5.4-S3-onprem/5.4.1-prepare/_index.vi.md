@@ -10,8 +10,8 @@ Tạo cặp khóa bảo mật khoa-travel.pem và phân quyền chmod 400.
 
 Khởi tạo máy chủ Web-travel-sv (t3.micro, Ubuntu Server 24.04 LTS) đặt tại Public Subnet 1 và gắn tường lửa TL-Web.
 
-![endpoint](/images/a25.png)
-![endpoint](/images/a26.png)
-![endpoint](/images/a27.png)
-![endpoint](/images/a28.png)
-![endpoint](/images/a29.png)
+![endpoint](/BC_AWS/images/a25.png)
+![endpoint](/BC_AWS/images/a26.png)
+![endpoint](/BC_AWS/images/a27.png)
+![endpoint](/BC_AWS/images/a28.png)
+![endpoint](/BC_AWS/images/a29.png)

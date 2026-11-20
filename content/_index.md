@@ -29,7 +29,7 @@ chapter: false
 
 &emsp; **Internship Duration:** From 01/08/2026 đến 15/11/2026
 
-![Your profile picture](/images/anh.png)
+![Your profile picture](/BC_AWS/images/anh.png)
 
 ### Report Content
 

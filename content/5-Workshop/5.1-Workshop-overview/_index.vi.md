@@ -12,4 +12,4 @@ Bối cảnh bài toán: Ứng dụng Web Travel cung cấp các chức năng tr
 
 Kiến trúc mục tiêu: Triển khai tại Region Singapore (ap-southeast-1) trên 2 Availability Zones (ap-southeast-1a và ap-southeast-1b) với ngân sách tối ưu trong gói 100 USD Credits.
 
-![Cấu hình](/images/a-1.png)
+![Cấu hình](/BC_AWS/images/a-1.png)

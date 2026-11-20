@@ -25,7 +25,7 @@ chapter: false
 
 &emsp; **Thời gian thực tập:** Từ 01/08/2026 đến 15/11/2026
 
-![Ảnh đại diện của bạn](/images/anh.png)
+![Ảnh đại diện của bạn](/BC_AWS/images/anh.png)
 
 
 
