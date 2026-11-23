@@ -1,5 +1,5 @@
 ---
-title : "Các bước chuẩn bị"
+title : "Preparation steps"
 date : 2026-11-15 
 weight : 2
 chapter : false

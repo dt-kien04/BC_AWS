@@ -1,5 +1,5 @@
 ---
-title : "Giới thiệu"
+title : "Introduction"
 date : 2026-11-15 
 weight : 1
 chapter : false

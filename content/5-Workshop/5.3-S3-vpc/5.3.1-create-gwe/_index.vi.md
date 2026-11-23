@@ -7,7 +7,7 @@ pre : " <b> 5.3.1 </b> "
 ---
 
 * Khởi tạo VPC travel-vpc (10.0.0.0/16) gồm 2 Public Subnets (bật Auto-assign public IPv4), 2 Private
-* Subnets và 1 Internet Gateway (không dùng NAT Gateway để tiết kiệm chi phí).
+* Subnets và 1 Internet Gateway.
 
 ![endpoint](/BC_AWS/images/PastedGraphic.png)
 
