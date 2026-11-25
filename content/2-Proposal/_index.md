@@ -27,7 +27,7 @@ The solution completely eliminates upfront physical server hardware investment a
 ### 3. Solution Architecture
 The platform adopts a standard multi-tier AWS cloud architecture in the Singapore Region (ap-southeast-1). The entire infrastructure resides within a custom Virtual Private Cloud named travel-vpc, spanning two Availability Zones (ap-southeast-1a and ap-southeast-1b). The web server Web-travel-sv is placed inside a Public Subnet, receiving user traffic through an Internet Gateway and the TL-Web security group. Business data is queried internally from travel-database (Amazon RDS MySQL) located in a Private Subnet protected by the TL-Database security group. The Travel-auto-scaling-group, combined with Web-Travel-AMI and Travel-target, guarantees elastic scalability and continuous user session persistence.
 
-![WEB TRAVEL PLATFORM ON CLOUD](/images/Sodo.drawio.png)
+![WEB TRAVEL PLATFORM ON CLOUD](/BC_AWS/images/Sodo.drawio.png)
 
 ### 4. Technical Implementation
 **Implementation Phases**
