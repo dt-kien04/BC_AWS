@@ -29,6 +29,7 @@ Giải pháp giúp loại bỏ hoàn toàn chi phí đầu tư và bảo trì ph
 Nền tảng áp dụng kiến trúc đám mây phân tầng tiêu chuẩn của AWS tại khu vực Singapore (ap-southeast-1). Toàn bộ hệ thống nằm trong mạng riêng ảo travel-vpc trải dài qua 2 Availability Zones (ap-southeast-1a và ap-southeast-1b). Máy chủ web Web-travel-sv đặt tại Public Subnet tiếp nhận lưu lượng người dùng thông qua Internet Gateway và tường lửa TL-Web. Dữ liệu nghiệp vụ được truy vấn nội bộ tới travel-database (Amazon RDS MySQL) đặt trong Private Subnet thông qua tường lửa TL-Database. Cụm Travel-auto-scaling-group kết hợp cùng Web-Travel-AMI và Travel-target đảm bảo khả năng tự động mở rộng và duy trì phiên đăng nhập người dùng liên tục.  
 
 ![WEB TRAVEL PLATFORM ON CLOUD](/BC_AWS/images/Sodo.drawio.png)
+![WEB TRAVEL PLATFORM ON CLOUD](/BC_AWS/images/Sodo2.drawio.png)
 
 ### 4. Triển khai kỹ thuật  
 *Các giai đoạn triển khai*  
